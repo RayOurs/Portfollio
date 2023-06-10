@@ -1,57 +1,57 @@
 body, html{
-    height: 100%;
-    margin: 0;
-    display: flex;
-    gap: 40px;
-    scroll-behavior: smooth;
-   
-    
-    
+  height: 100%;
+  margin: 0;
+  display: flex;
+  gap: 40px;
+  scroll-behavior: smooth;
+ 
+  
+  
 }
 
 /* nav bar */
 
 nav{
-    box-shadow: 0px 1px 10px #000;
+  box-shadow: 0px 1px 10px #000;
 }
 
 aside nav ul img{
-   width: 40px;
-   height: 40px;
+ width: 40px;
+ height: 40px;
 }
 
 aside nav ul{
-    display: flex;
-    justify-content: flex-start;
+  display: flex;
+  justify-content: flex-start;
 }
 
 
 
 /* div accueil */
 div.present{
-    display: flex;
-    gap: 60px;
-    margin-left: 100px;
-    
+  display: flex;
+  gap: 60px;
+  margin-left: 100px;
+  
 }
 div.present img{
-    width: 380px;
-    height: 600px;
+  width: 380px;
+  height: 600px;
 }
 div.presentation {
-    
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: large;
+  
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
 
 }
 div.presentation p{
-    font-size: 22px;
+  font-size: 22px;
 }
 
 div.title{
 
-    margin-bottom: 40px;
-    font-size: 40px;
+  margin-bottom: 40px;
+  font-size: 40px;
 
 }
 
@@ -66,72 +66,72 @@ div.title{
 
 
 main{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 200px;
-    margin-left: 350px;
-    
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 200px;
+  margin-left: 350px;
+  
 
 }
 
 main div h2.titre {
-    padding-bottom: 40px;
+  padding-bottom: 40px;
 }
 
 aside{
-    width: 10%;
-    height: 100%;
-    background-color:  grey;
-    position: fixed;
-    z-index: 1000;
-    
-    
+  width: 10%;
+  height: 100%;
+  background-color:  grey;
+  position: fixed;
+  z-index: 1000;
+  
+  
 }
 nav{
+  
+  height: 100%;
+   display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  background-color: #282828;
     
-    height: 100%;
-     display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    background-color: #282828;
-      
-    
+  
 }
 
 a {
-    
-    text-decoration: none;
-    display: block;
-    color: white;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    text-transform: capitalize;
-   
+  
+  text-decoration: none;
+  display: block;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  text-transform: capitalize;
+ 
 }
 aside nav a.active,
 aside nav a:hover{
-    background-color:#92017a;
+  background-color:#92017a;
 }
 
 section{
-    min-height: 100vh;
-    display: flex;
-    
-    align-items: center;
-    justify-content: center;
-    font-size: 7em;
-    color: #ccc;
-    font-weight: bolder;
-    text-transform: uppercase;
-    box-shadow: 5px 5px 10px #181717;
+  min-height: 100vh;
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+  font-size: 7em;
+  color: #ccc;
+  font-weight: bolder;
+  text-transform: uppercase;
+  box-shadow: 5px 5px 10px #181717;
 }
 
 section:nth-child(odd){
-    background: #282828;
+  background: #282828;
 }
 
 
@@ -139,78 +139,79 @@ section:nth-child(odd){
 
 
 *{
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 #popup-overlay, #popup-overlay1, #popup-overlay2, #popup-overlay3, #popup-overlay4, #popup-overlay5, #popup-overlay6, #popup-overlay7, #popup-overlay8, #popup-overlay9, #popup-overlay10 {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: #181717;
-    z-index: 98;
-    display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #181717;
+  z-index: 98;
+  display: none;
 
 
 }
 
 #popup-overlay.open, #popup-overlay1.open, #popup-overlay2.open, #popup-overlay3.open, #popup-overlay4.open, #popup-overlay5.open, #popup-overlay6.open, #popup-overlay7.open, #popup-overlay8.open, #popup-overlay9.open, #popup-overlay10.open {
-    display:block !important;
+  display:block !important;
 
 }
 
 .popup-content{
-    max-width: 800px;
-    height: 1000px;
-    width: 100%;
-    padding: 30px;
-    box-sizing: border-box;
-    background: #FFF;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: left justify;
-    font-family: "Ubuntu", sans-serif;
-    font-size: 20px;
+  max-width: 800px;
+  height: 1000px;
+  width: 100%;
+  padding: 30px;
+  box-sizing: border-box;
+  background: #FFF;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: justify;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  box-sizing: border-box;
 
 }
 
 .popup-exit{
-    position: absolute;
-    top: -10px;
-    right: -10px;
-    text-decoration: none;
-    color: #FFF;
-    background: purple;
-    padding: 5px 10px;
-    border-radius: 5px;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  text-decoration: none;
+  color: #FFF;
+  background: purple;
+  padding: 5px 10px;
+  border-radius: 5px;
 }
 
 
 main div button {
-    width: 200px;
-    height: 200px;
+  width: 200px;
+  height: 200px;
 }
 
 .jaime{
-  font-family: "Ubuntu", sans-serif;
-  font-weight: bolder;
-  text-transform: uppercase;
+font-family: "Ubuntu", sans-serif;
+font-weight: bolder;
+text-transform: uppercase;
 
 }
 .loisir{
-  font-family: "Ubuntu", sans-serif;
-  font-size: 22px;
+font-family: "Ubuntu", sans-serif;
+font-size: 22px;
 }
 
 .hr-mysel{
-  width: 30%;
-  height: 2px;
-  background-color: #92017a;
-  margin-bottom: 20px;
+width: 30%;
+height: 2px;
+background-color: #92017a;
+margin-bottom: 20px;
 }
 
 
@@ -219,87 +220,86 @@ main div button {
 
 
 .skills{
-    width: 600px;
-    height: 300px;
-    padding: 40px;
-    background: #282828;
-    box-shadow: 5px 5px 8px 1px #000;
-    margin: 0;
-  }
-  
-  .skill-name{
-    font-size: 18px;
-    font-weight: 700;
-    color: #f1f1f1;
-    text-transform: uppercase;
-    margin: 20px 0;
-  }
-  
-  .skill-bar{
-    height: 14px;
-    background: #282828;
-    border-radius: 3px;
-  }
-  
-  .skill-per{
-    height: 14px;
-    background: #d13639;
-    border-radius: 3px;
-    position: relative;
-    animation: fillBars 2.5s 1;
-  }
-  
-  
-  
-  @keyframes fillBars{
-    from{
-      width: 0;
-    }
-    to{
-      width: 100%;
-    }
-  }
+  width: 600px;
+  height: 300px;
+  padding: 40px;
+  background: #282828;
+  box-shadow: 5px 5px 8px 1px #000;
+  margin: 0;
+}
+
+.skill-name{
+  font-size: 18px;
+  font-weight: 700;
+  color: #f1f1f1;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+.skill-bar{
+  height: 14px;
+  background: #282828;
+  border-radius: 3px;
+}
+
+.skill-per{
+  height: 14px;
+  background: #d13639;
+  border-radius: 3px;
+  position: relative;
+  animation: fillBars 2.5s 1;
+}
 
 
-  .skillss{
-    width: 600px;
-    height: 300px;
-    padding: 40px;
-    background: #282828;
-    box-shadow: 5px 5px 8px 1px #000;
-    margin: 0;
-  }
-  
-  .skill-name{
-    font-size: 18px;
-    font-weight: 700;
-    color: #f1f1f1;
-    text-transform: uppercase;
-    margin: 20px 0;
-  }
-  
-  .skill-bar{
-    height: 14px;
-    background: #282828;
-    border-radius: 3px;
-  }
-  
-  .skill-per{
-    height: 14px;
-    background: #92017a;
-    border-radius: 3px;
-    position: relative;
-    animation: fillBars 2.5s 1;
-  }
 
-  div.skil{
-    display: flex;
-    flex-direction: row;
-    gap: 200px;
-    
-    
+@keyframes fillBars{
+  from{
+    width: 0;
   }
+  to{
+    width: 100%;
+  }
+}
 
+
+.skillss{
+  width: 600px;
+  height: 300px;
+  padding: 40px;
+  background: #282828;
+  box-shadow: 5px 5px 8px 1px #000;
+  margin: 0;
+}
+
+.skill-name{
+  font-size: 18px;
+  font-weight: 700;
+  color: #f1f1f1;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+.skill-bar{
+  height: 14px;
+  background: #282828;
+  border-radius: 3px;
+}
+
+.skill-per{
+  height: 14px;
+  background: #92017a;
+  border-radius: 3px;
+  position: relative;
+  animation: fillBars 2.5s 1;
+}
+
+div.skil{
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
+  
+  
+}
 
 
 
