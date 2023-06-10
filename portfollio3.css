@@ -178,6 +178,9 @@ section:nth-child(odd){
   box-sizing: border-box;
 
 }
+.popup-content p{
+  font-size: 20px;
+}
 
 .popup-exit{
   position: absolute;
