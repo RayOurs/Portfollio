@@ -189,8 +189,8 @@ section:nth-child(odd){
 
 .popup-exit{
   position: absolute;
-  top: 20px;
-  right:80px;
+  top: 2px;
+  right:20px;
   text-decoration: none;
   color: #FFF;
   background: purple;
