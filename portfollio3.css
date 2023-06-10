@@ -177,6 +177,7 @@ section:nth-child(odd){
   font-family: "Ubuntu", sans-serif;
   font-size: 20px;
   box-sizing: border-box;
+  overflow-y: scroll;
 
 }
 .popup-content p{
