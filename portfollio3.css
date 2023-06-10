@@ -201,6 +201,7 @@ section:nth-child(odd){
 main div button {
   width: 200px;
   height: 200px;
+  margin-top: 5px;
 }
 
 .jaime{
