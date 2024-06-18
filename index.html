@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta tpye="description" content="Voici mon portfolio" />
+    <title>Mon portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/style.css" type="text/css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="boxed">
+        <div class="flex aligncenter space-between">
+          <a href="#sectionHome" class="header-logo">
+            <img src="img/logo.jpg" />
+          </a>
+          <ul class="header-menu">
+            <li><a href="#sectionHome">Accueil</a></li>
+
+            <li><a href="#section1">A propos</a></li>
+
+            <li><a href="#section2">Compétences</a></li>
+
+            <li><a href="#section3">Réalisation</a></li>
+
+            <li><a href="#section4">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <div id="sectionHome" class="slider">
+      <img src="img/slider.jpg" class="slider-background" />
+      <div class="slider-content">
+        <h1>Rayan ASSOUS</h1>
+        <p>Je suis un étudiant en informatique</p>
+      </div>
+    </div>
+
+    <div id="section1" class="section">
+      <div class="boxed">
+        <div class="flex">
+          <div class="w40">
+            <h2>A propos de moi</h2>
+          </div>
+
+          <div class="w60">
+            <p>
+              Je suis un étudiant de deuxième années en informatique à l'IUT2 de
+              Grenoble. Je suis en parcours B: déploiements d'application
+              communicantes et sécurisées. Plus tard j'aimeras me diriger vers
+              la cybersécurité. Pour ma part je suis quelqu'un de calme qui aime
+              les sports de combats et les beaus paysages.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="section2" class="section dark">
+      <div class="boxed text-center">
+        <h2>Découvrez mes compétences</h2>
+        <div class="flex gap20">
+          <div class="w25 skill">
+            <img src="img/html-logo.png" />
+            <h3>HTML</h3>
+          </div>
+          <div class="w25 skill">
+            <img src="img/css.png" />
+            <h3>CSS</h3>
+          </div>
+          <div class="w25 skill">
+            <img src="img/JavaScript-logo.png" />
+            <h3>JavaScript</h3>
+          </div>
+          <div class="w25 skill">
+            <img src="img/java.svg" />
+            <h3>Java</h3>
+          </div>
+          <div class="w25 skill">
+            <img src="img/C++.png" />
+            <h3>C++</h3>
+          </div>
+          <div class="w25 skill">
+            <img src="img/PHP-logo.svg.png" />
+            <h3>PHP</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="section3" class="section">
+      <div class="boxed text-center">
+        <h2>Mes réalisations académique</h2>
+        <div class="flex wrap gap20 space-between">
+          <div class="w32 realisation">
+            <a href="javascript:void(0)">
+              <img src="img/Serious-game.png" onclick="togglePopup()" />
+              <h3>Serious game</h3>
+            </a>
+          </div>
+
+          <div class="w32 realisation">
+            <a href="javascript:void(0)">
+              <img src="img/réseau.jpg" onclick="togglePopup2()" />
+              <h3>Infrastructure réseau</h3>
+            </a>
+          </div>
+
+          <div class="w32 realisation">
+            <a href="javascript:void(0)">
+              <img src="img/realisation.jpg" />
+            </a>
+          </div>
+
+          <div class="w32 realisation">
+            <a href="javascript:void(0)">
+              <img src="img/realisation.jpg" />
+            </a>
+          </div>
+
+          <div class="w32 realisation">
+            <a href="javascript:void(0)">
+              <img src="img/realisation.jpg" />
+            </a>
+          </div>
+
+          <div class="w32 realisation">
+            <a href="javascript:void(0)">
+              <img src="img/realisation.jpg" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="popup-overlay">
+      <div class="popup-content">
+        <h2>SAE3.01</h2>
+        <br /><br />
+        <p>
+          Intitulé: Création et déploiement de service applicatifs/Développement
+          d'une application
+        </p>
+        <hr />
+        <br />
+        <p>
+          Le projet consiste à développer pour un jeu pédagogique pour des
+          éléves de lycée. Mais aussi de déployer deux machines virtuelles
+          hébergeant les différents serveurs et outils.
+        </p>
+        <br />
+        <p>
+          Thème: Développement logiciel, Administration réseau, Exploitation
+          base de donnée
+        </p>
+        <hr />
+        <br />
+        <p>
+          J'ai réalisé le déploiement de deux machines virtuelles, une qui
+          héberge la base de donnée et l'autre qui héberge le serveur node js
+          pour que l'on puisse héberger le jeu dessus. J'ai pu aussi réalisé en
+          collaboration avec un camarade un script pour automatiquement pull le
+          code sur le github. J'ai aussi participer à la réalisation du jeu,
+          dont la partie design et level qui ont été faites par moi.
+        </p>
+        <br />
+        <p>Attentes</p>
+        <hr />
+        <br />
+        <p>
+          Il fallait fournir un jeu fini et fonctionnel qui possèdent une mode
+          de jeu multijoeur. Mais le plus important est que le jeu soit
+          pédagogique.Nous avons eu du mal à finir le jeu et donc ils nous
+          manqué la partie multijoeur. Pour le déploiement des machines une
+          bonne sécurité et un déploiement étais demandé, cela à été respecté.
+        </p>
+        <a href="javascript:void(0)" onclick="togglePopup()" class="popup-exit"
+          >Fermer</a
+        >
+      </div>
+    </div>
+
+    <div id="popup-overlay2">
+      <div class="popup-content">
+        <h2>SAE4.01</h2>
+        <br /><br />
+        <p>Intitulé: Déployer et sécuriser des services dans un réseau</p>
+        <hr />
+        <br />
+        <p>
+          Le projet consiste à déployer une architecture réseau sécurisé afin
+          d'y acceuillir des utilisateurs.
+        </p>
+        <br />
+        <p>Thème: Administration réseau, Exploitation base de donnée</p>
+        <hr />
+        <br />
+        <p>
+          Nous avons déployer et configurer plusieurs outils tel que un serveur
+          DHCP, LDAP, DNS et NFS. Nous avons aussi fait des scripts pour
+          automatiser la configuratino et l'installation des machines et outils.
+          Nous avons sécurisé le réseau avec du NAT et un pare-feu, LDAPS,
+          HTTPS. Nous avons du rendre des documentations techniques. J'ai
+          réalisé le DHCP ainsi que LDAP et la configuration de certaines
+          machines.
+        </p>
+        <br />
+        <p>Attentes</p>
+        <hr />
+        <br />
+        <p>
+          Il étais nécessaire de fournir un réseau coorespondant l'un des trois
+          niveaux de difficulté, il étais nécessaire de possèder un réseau
+          sécuriser avec des configurations stable. Des documentations détaillé
+          étais attendue, avec un contenue synthétique et commenté. Nous avons
+          réussi à rendre notre travail avec le troisième niveau de difficulté
+          et donc répondu au attentes.
+        </p>
+        <a href="javascript:void(0)" onclick="togglePopup2()" class="popup-exit"
+          >Fermer</a
+        >
+      </div>
+    </div>
+
+    <div id="section4" class="section dark">
+      <div class="boxed text-center">
+        <h2>Contactez-moi</h2>
+        <div class="flex space-between">
+          <div class="w32 contact">
+            <span class="material-icons">mail</span>
+            <span class="label">E-mail</span>
+            <span class="value">assousrayan@gmail.com</span>
+          </div>
+
+          <div class="w32 contact">
+            <span class="material-icons">mail</span>
+            <span class="label">E-mail</span>
+            <span class="value">rayan.assous@etu.univ-grenoble-alpes.fr</span>
+          </div>
+
+          <div class="w32 contact">
+            <span class="material-icons">call</span>
+            <span class="label">Tel</span>
+            <span class="value">06 50 84 36 03</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="js/app.js"></script>
+</html>
